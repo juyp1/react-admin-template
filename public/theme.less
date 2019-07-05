@@ -1,4 +1,5 @@
-@primary-color: #313653;
+@primary-color: #f9c700;
+@selectantmenu: #f9c700;
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -2075,8 +2076,8 @@ this.tinycolor = tinycolor;
 
 .ant-menu-root.ant-menu-inline,
 .ant-menu-root.ant-menu-vertical {
-  background: @primary-color;
-  border-right: 1px solid @primary-color;
+  background: #333333;
+  border-right: 1px solid #333333;
   color: #ffffff;
 }
 .ant-menu-root.ant-menu-inline a,
@@ -2131,7 +2132,7 @@ this.tinycolor = tinycolor;
   color: #ffffff;
 }
 .header__trigger {
-  color: #ffffff;
+  color: #333333;
 }
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -4705,21 +4706,22 @@ form .ant-upload {
   background: #f0f2f5;
 }
 .ant-layout-header {
-  background: @primary-color;
+  background: #ffffff;
+  color:#333333 !important
 }
 .ant-layout-footer {
   background: #f0f2f5;
   color: #000000;
 }
 .ant-layout-sider {
-  background: @primary-color;
+  background: #333333;
 }
 .ant-layout-sider-trigger {
   color: #fff;
   background: #002140;
 }
 .ant-layout-sider-zero-width-trigger {
-  background: @primary-color;
+  background: #333333;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -4925,7 +4927,7 @@ form .ant-upload {
   color: @primary-color;
 }
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-  background-color: color(~`colorPalette("@{primary-color}", 1)`);
+  background-color:@selectantmenu
 }
 .ant-menu-inline,
 .ant-menu-vertical,
@@ -5025,7 +5027,7 @@ form .ant-upload {
 .ant-menu-vertical-left .ant-menu-item:after,
 .ant-menu-vertical-right .ant-menu-item:after,
 .ant-menu-inline .ant-menu-item:after {
-  border-right: 3px solid @primary-color;
+  border-right: 3px solid @selectantmenu;
 }
 .ant-menu-inline-collapsed-tooltip a {
   color: rgba(255, 255, 255, 0.85);
@@ -7278,8 +7280,8 @@ li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper:hover {
 }
 .ant-menu-root.ant-menu-inline,
 .ant-menu-root.ant-menu-vertical {
-  background: @primary-color;
-  border-right: 1px solid @primary-color;
+  background: #333333;
+  border-right: 1px solid #333333;
   color: #ffffff;
 }
 .ant-menu-root.ant-menu-inline a,
@@ -7321,19 +7323,19 @@ li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper:hover {
   color: #ffffff;
 }
 .ant-menu-horizontal > .ant-menu-item-selected {
-  color: #ffffff;
+  color: #333333;
 }
 .bg--primary {
   background: @primary-color;
 }
 .header .ant-menu {
   background: transparent;
-  color: #ffffff;
+  color: #333333;
 }
 .header .ant-menu .ant-menu-item:hover {
-  color: #ffffff;
+  color: #333333;
 }
 .header__trigger {
-  color: #ffffff;
+  color: #333333;
 }
 

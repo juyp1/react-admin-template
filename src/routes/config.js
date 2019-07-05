@@ -5,9 +5,11 @@ export default {
             key: '/app/ui', title: 'UI', icon: 'scan',
             subs: [
                 { key: '/app/ui/buttons', title: '按钮', component: 'Buttons'},
+                { key: '/app/ui/buttonss', title: '按钮学习', component: 'Buttonss'},
                 { key: '/app/ui/icons', title: '图标', component: 'Icons'},
                 { key: '/app/ui/spins', title: '加载中', component: 'Spins'},
                 { key: '/app/ui/modals', title: '对话框', component: 'Modals'},
+                { key: '/app/ui/modalss', title: '对话框学习', component: 'Modelass'},
                 { key: '/app/ui/notifications', title: '通知提醒框', component: 'Notifications'},
                 { key: '/app/ui/tabs', title: '标签页', component: 'Tabs'},
                 { key: '/app/ui/banners', title: '轮播图', component: 'Banners'},
